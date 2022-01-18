@@ -4,8 +4,8 @@
 bfs::Mpu9250 imu(&Wire, 0x68);
 int status;
 
-const char *ssid = "ritvik";
-const char *password = "Ritvikm01@";
+const char *ssid = "ssid";
+const char *password = "password";
 
 float acc_x = 0.0;
 float acc_y = 0.0;
